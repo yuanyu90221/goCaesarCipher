@@ -6,8 +6,13 @@ import (
 )
 
 func main() {
-	s := "middle-Outz"
-	p := 2
+	var n int
+	fmt.Scanf("%d", &n)
+	var s string
+	fmt.Scanf("%s", &s)
+	var p int
+	fmt.Scanf("%d", &p)
+	s = s[:n]
 	ret := solution(s, p)
 	fmt.Println(ret)
 }
